@@ -10,14 +10,3 @@ const countSheep = (num) => {
     return sheepNum.join('')
 }
 countSheep(0)
-
-// if (num === 0) {
-//     return ''
-// } else {
-//     const sheepNum = Array(num).fill(0)
-//     let newArr = []
-//     sheepNum.forEach((num, idx) => {
-//         newArr = [...newArr, `${idx + 1} sheep...`]
-//         return newArr.join('')
-//     })
-// }
