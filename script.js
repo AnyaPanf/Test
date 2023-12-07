@@ -9,4 +9,5 @@ const countSheep = (num) => {
     }
     return sheepNum.join('')
 }
-countSheep(0)
+
+console.log(countSheep(0));
